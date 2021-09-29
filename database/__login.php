@@ -19,9 +19,10 @@ require 'conexion.php';
 			$_SESSION['user_id'] = $results['id'];
 			header('Location: ../dashboard');
 
-	 	} else{
+		} else{
 			header('Location: ../index?acceso=error');
 	 	}
        
         
     }
+?>

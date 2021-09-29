@@ -1,6 +1,5 @@
 :root {
     --color-main: #3cc270;
-    --color-secondary: #0dcaf0;
 }
 
 body {
@@ -45,7 +44,7 @@ body {
     color: #fff;
     padding: 15px;
     border-radius: 30px;
-    background-color: #3cc270;
+    background-color: var(--color-main);
     border-color: #19a558;
 }
 
@@ -64,7 +63,7 @@ body {
     color: #fff;
     padding: 15px;
     border-radius: 30px;
-    background-color: #3cc270;
+    background-color: var(--color-main);
     border-color: #19a558;
 }
 
@@ -89,9 +88,6 @@ body {
 .signup__fail {
     display: none;
 }
-
-
-/*****/
 
 .dashboard__container {
     display: flex;
