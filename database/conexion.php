@@ -2,7 +2,7 @@
 
 	$server = 'localhost';
 	$username = 'root';
-	$password = '';
+	$password = 'p7a8g5i4';
 	$database = 'login-easycodigo';
 
 	try{

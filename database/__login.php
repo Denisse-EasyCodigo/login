@@ -25,7 +25,3 @@ require 'conexion.php';
        
         
     }
-
-
-
-?>

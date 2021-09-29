@@ -1,114 +1,116 @@
-body{
-	font-family: 'Roboto', sans-serif;
-	height: 100%;
-}
-.login-container{
-    margin-top: 100px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+:root {
+    --color-main: #3cc270;
+    --color-secondary: #0dcaf0;
 }
 
-.welcome-container{
-	display: flex;
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.login__container,
+.signup__container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form__title,
+.signup-form__title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-form__image,
+.signup-form__image {
+    padding: 10px;
+    border-left: 30px solid #3ec471;
+    border-radius: 50px;
+}
+
+.login-form__form,
+.signup-form__form {
+    padding: 50px 30px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 30px solid #c7f4ff;
+    border-radius: 50px;
+}
+
+.login-form__btn-login {
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #3cc270;
+    border-color: #19a558;
+}
+
+.login-form__btn-signup {
+    width: 100%;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.login-form__btn-signup:hover {
+    color: #fff;
+}
+
+.signup-form__btn-signup {
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #3cc270;
+    border-color: #19a558;
+}
+
+.signup-form__btn-login {
+    width: 100%;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.signup-form__btn-login:hover {
+    color: #fff;
+}
+
+.alert-warning {
+    display: none;
+}
+
+.signup__success {
+    display: none;
+}
+
+.signup__fail {
+    display: none;
+}
+
+
+/*****/
+
+.dashboard__container {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.alert-heading{
-	font-weight: bold;
+.dashboard__image {
+    padding: 10px;
 }
 
-.welcome-alert{
-	margin-top:20px;
-}
-.welcome__img{
-	padding: 10px;
+.dashboard__text {
+    margin-top: 20px;
 }
 
-.alert-warning{
-	display: none;
-}
-.signup__success{
-	display: none;
-}
-.signup__fail{
-	display: none;
+.alert-heading {
+    font-weight: bold;
 }
 
-.form__title{
-	font-weight: bold;
-	text-align: center;
-}
-
-.form_image{
-	padding: 10px;
-	border-left: 30px solid #3ec471;
-    border-radius: 50px;
-}
-
-.form__login{
-	padding: 50px 30px;
-	box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-	border-right: 30px solid #c7f4ff;
-	border-radius: 50px;
-}
-
-.form__button-login{
-	width: 100%;
-	color: #fff;
-	padding: 15px;
-	border-radius: 30px;
-	background-color: #3cc270;
-	border-color: #19a558;
-}
-
-.form__button-signup{
-	width: 100%;
-	color: #fff;
-	border-radius: 30px;
-}
-.form__button-signup:hover{
-	color: #fff;
-}
-
-.form__signup{
-	padding: 50px 30px;
-	box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-	border-right: 30px solid #c7f4ff;
-	border-radius: 50px;
-}
-
-.form_image-signup{
-	padding: 10px;
-	border-left: 30px solid #3ec471;
-    border-radius: 50px;
-}
-
-.form__button-signup2{
-	width: 100%;
-	color: #fff;
-	padding: 15px;
-	border-radius: 30px;
-	background-color: #3cc270;
-	border-color: #19a558;
-}
-.form__button-login2{
-	width: 100%;
-	color: #fff;
-	border-radius: 30px;
-}
-
-.form__button-login2:hover{
-	color: #fff;
-}
-
-.dashboard__logout{
-	float: right;
+.dashboard__btn-logout {
+    float: right;
 }
