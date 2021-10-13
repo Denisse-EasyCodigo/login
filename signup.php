@@ -37,9 +37,10 @@ if (isset($_SESSION['user_id'])) {
             </div>
 
             <div class="col-md-6 signup-form__container">
-                <h2 class="mb-3 signup-form__title">Registrate</h2>
+
 
                 <form class="signup-form__form">
+                    <h2 class="mb-3 signup-form__title">Registrate</h2>
                     <div class="mb-3">
                         <label>Ingresa tu nombre</label>
                         <input type="text" name="nombre" class="form-control" id="nombre" required>
