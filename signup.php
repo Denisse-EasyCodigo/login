@@ -31,9 +31,9 @@ if (isset($_SESSION['user_id'])) {
 <body>
 
     <div class="container signup__container">
-        <div class="row mt-5">
+        <div class="row mt-5 signup__box">
             <div class="col-md-6 g-0 signup-form__image">
-                <img src="img/login.png" />
+                <img src="img/login.png" class="signup-form__img" />
             </div>
 
             <div class="col-md-6 signup-form__container">

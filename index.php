@@ -36,10 +36,10 @@ if (isset($_GET['acceso'])) {
 <body>
 
     <div class="container login__container">
-        <div class="row mt-5">
+        <div class="row mt-5 login__box">
 
             <div class="col-md-6 g-0 login-form__image">
-                <img src="img/login.png" />
+                <img src="img/login.png" class="login-form__img" />
             </div>
 
             <div class="col-md-6 login-form__form">

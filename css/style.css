@@ -27,6 +27,15 @@ body {
     padding: 10px;
     border-left: 30px solid var(--color-main);
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form__img,
+.signup-form__img {
+    width: 100%;
+    height: auto;
 }
 
 .login-form__form,
@@ -110,4 +119,15 @@ body {
 
 .dashboard__btn-logout {
     float: right;
+}
+
+@media only screen and (max-width: 770px) {
+    .login-form__image,
+    .signup-form__image {
+        display: none;
+    }
+    .login__box,
+    .signup__box {
+        justify-content: center;
+    }
 }
